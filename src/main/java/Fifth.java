@@ -11,7 +11,7 @@ public class Fifth {
 
             int monthNum = sc.nextInt();
 
-            if (monthNum <= 12) {
+            if (monthNum <= 12 && monthNum > 0) {
                 switch (monthNum) {
                     case 1:
                         System.out.println("Січень!");
